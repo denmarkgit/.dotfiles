@@ -1,0 +1,21 @@
+gnome.terminal.background-transparency-percent:	20
+i3-wm.window.border.size:	3
+i3-wm.mod: Mod1
+i3-wm.alt: Mod4
+
+i3-wm.workspace.01.name: 1:1:Term
+i3-wm.workspace.02.name: 2:2:Web
+i3-wm.workspace.03.name: 3:3:Chat
+i3-wm.workspace.04.name: 4:4:File
+i3-wm.workspace.05.name: 5:5:Wiki
+i3-wm.workspace.06.name: 6:6:Remote
+i3-wm.workspace.07.name: 7:7:Proj
+i3-wm.workspace.08.name: 8:8:Tickets
+i3-wm.workspace.09.name: 9:9:Sheol
+i3-wm.workspace.10.name: 10:10:Tasks
+
+$i3-wm.program.1: bash /home/denmark/.config/autostart.sh
+
+i3-wm.bar.position:	top	
+!regolith.look.path: /usr/share/regolith-look/gruvbox
+regolith.look.path: /usr/share/regolith-look/gruvbox
