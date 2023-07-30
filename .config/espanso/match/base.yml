@@ -1,0 +1,83 @@
+# espanso match file
+
+# For a complete introduction, visit the official docs at: https://espanso.org/docs/
+
+# You can use this file to define the base matches (aka snippets)
+# that will be available in every application when using espanso.
+
+# Matches are substitution rules: when you type the "trigger" string
+# it gets replaced by the "replace" string.
+matches:
+  # Simple text replacement
+  - trigger: ":espanso"
+    replace: "Hi there!"
+
+  # NOTE: espanso uses YAML to define matches, so pay attention to the indentation!
+
+  # But matches can also be dynamic:
+
+  # Print the current date
+  - trigger: ":date"
+    replace: "{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%m/%d/%Y"
+
+  # Print the output of a shell command
+  - trigger: ":shell"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "echo 'Hello from your shell'"
+
+  # GDC email
+  - trigger: ":email"
+    replace: "denmark.angeles@goodwindcorp.com"
+
+  # connecting tailscale 
+  - trigger: ":tailscale"
+    replace: "https://login.tailscale.com/a/"
+
+  # etc host file in windows
+  - trigger: ":etc"
+    replace: 'c:\Windows\System32\Drivers\etc\'
+
+  # etc host file in windows
+  - trigger: ":git"
+    replace: "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"
+
+  # close ticket
+  - trigger: ":close"
+    replace: |
+              Hi,
+
+              This is done. Will close this ticket. Thank you.
+  # etc host file in windows
+  - trigger: ":01"
+    replace: "P@ssw0rd01"
+
+  - trigger: "@ambak"
+    replace: "@americanbakeryguam.com"
+
+  - trigger: "@gdc"
+    replace: "@goodwindcorp.com"
+
+  - trigger: "@gbr"
+    replace: "@guambeachfrontresidences.com"
+
+  - trigger: "@gtt"
+    replace: "@goodwindtraveltour.com"
+
+  - trigger: "@mall"
+    replace: "@micronesiamall.com"
+
+
+
+
+
+
+  # And much more! For more information, visit the docs: https://espanso.org/docs/
