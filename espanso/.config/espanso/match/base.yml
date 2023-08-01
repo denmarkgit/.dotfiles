@@ -48,7 +48,7 @@ matches:
 
   # etc host file in windows
   - trigger: ":git"
-    replace: "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"
+    replace: "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"
 
   # close ticket
   - trigger: ":close"
