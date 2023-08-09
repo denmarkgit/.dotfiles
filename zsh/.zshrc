@@ -20,4 +20,3 @@ eval "$(zoxide init zsh)"
 bindkey -v
 
 bindkey -s '^f' 'tmux-sessionizer\n'
-
