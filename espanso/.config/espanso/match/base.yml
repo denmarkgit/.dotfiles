@@ -74,8 +74,13 @@ matches:
 
   - trigger: "@mall"
     replace: "@micronesiamall.com"
+  
+  - trigger: ":gdc"
+    replace: ".goodwindcorp.com"
 
 
+  - trigger: "@fg"
+    replace: "Gr33nkryp2n8"
 
 
 
