@@ -11,10 +11,6 @@ plug "zsh-users/zsh-syntax-highlighting"
 autoload -Uz compinit
 compinit
 
-
-eval "$(zoxide init zsh)"
-
-
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 bindkey -v
