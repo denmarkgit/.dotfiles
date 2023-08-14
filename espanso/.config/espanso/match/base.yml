@@ -82,6 +82,8 @@ matches:
   - trigger: "@fg"
     replace: "Gr33nkryp2n8"
 
+  - trigger: ":pass"
+    replace: "P@ssw0rd01"
 
 
 
