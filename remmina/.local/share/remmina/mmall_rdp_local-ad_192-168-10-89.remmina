@@ -1,8 +1,8 @@
 [remmina]
-password=.
+password=
 gateway_username=
 notes_text=
-window_height=1037
+window_height=1007
 vc=
 scale=2
 ssh_tunnel_loopback=0

@@ -1,0 +1,39 @@
+#!/usr/bin/zsh
+
+wmctrl -s 0
+konsole &
+sleep 2
+
+wmctrl -s 1
+google-chrome 'https://mail.google.com/' --new-window &
+sleep 2
+
+wmctrl -s 2
+google-chrome 'https://web.whatsapp.com/' --new-window &
+sleep 2
+
+wmctrl -s 3
+dolphin &
+sleep 2
+
+wmctrl -s 4
+google-chrome 'https://wiki.goodwindcorp.com/' --new-window &
+sleep 2
+
+wmctrl -s 5
+remmina &
+sleep 2
+
+wmctrl -s 6
+google-chrome 'http://wiki.goodwindcorp.com:81/dashboard/' --new-window &
+sleep 2
+
+wmctrl -s 7
+google-chrome 'https://helpdesk.goodwindcorp.com/' --new-window &
+sleep 2
+
+wmctrl -s 8
+netExtenderGui &
+sleep 2
+
+wmctrl -s 0
