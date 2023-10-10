@@ -75,9 +75,11 @@ matches:
   - trigger: "@mall"
     replace: "@micronesiamall.com"
   
-  - trigger: ":gdc"
+  - trigger: ".gdc"
     replace: ".goodwindcorp.com"
 
+  - trigger: ".gtt"
+    replace: ".goodwindtraveltour.com"
 
   - trigger: "@fg"
     replace: "Gr33nkryp2n8"
@@ -85,6 +87,10 @@ matches:
   - trigger: ":pass"
     replace: "P@ssw0rd01"
 
-
+  - trigger: "@dededo"
+    replace: "170 Dolores St Dededo Guam 96929"
+  
+  - trigger: "@po"
+    replace: "24858"
 
   # And much more! For more information, visit the docs: https://espanso.org/docs/

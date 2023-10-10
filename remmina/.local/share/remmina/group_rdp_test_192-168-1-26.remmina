@@ -1,5 +1,5 @@
 [remmina]
-password=.
+password=AdVdEs5WYPHP6nIY8Bocjw==
 gateway_username=
 notes_text=
 vc=
@@ -43,7 +43,7 @@ clientname=
 resolution_width=0
 drive=
 relax-order-checks=0
-username=test.user2
+username=john.smith
 base-cred-for-gw=0
 gateway_domain=
 network=none
@@ -90,5 +90,5 @@ websockets=0
 freerdp_log_level=INFO
 window_height=1037
 viewmode=1
-window_maximize=0
+window_maximize=1
 window_width=945

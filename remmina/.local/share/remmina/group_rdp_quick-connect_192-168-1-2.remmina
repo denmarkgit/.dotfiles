@@ -1,5 +1,5 @@
 [remmina]
-password=.
+password=
 gateway_username=
 notes_text=
 window_height=1080
@@ -86,7 +86,7 @@ ssh_tunnel_server=
 gwtransp=http
 ignore-tls-errors=1
 disable-smooth-scrolling=0
-window_maximize=0
+window_maximize=1
 gateway_usage=0
 window_width=1920
 no-suppress=0
