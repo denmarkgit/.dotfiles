@@ -80,6 +80,9 @@ matches:
 
   - trigger: ".gtt"
     replace: ".goodwindtraveltour.com"
+  
+  - trigger: ".ambak"
+    replace: ".americanbakeryguam.com"
 
   - trigger: "@fg"
     replace: "Gr33nkryp2n8"

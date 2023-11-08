@@ -1,5 +1,5 @@
 [remmina]
-password=O+vacc64uq7X4zbRtYyyOA==
+password=AdVdEs5WYPHP6nIY8Bocjw==
 gateway_username=
 notes_text=
 window_height=1080
@@ -9,7 +9,7 @@ ssh_tunnel_loopback=0
 serialname=
 preferipv6=0
 tls-seclevel=
-websockets=0
+sound=off
 printer_overrides=
 name=sage
 console=0
@@ -63,7 +63,7 @@ usb=
 shareprinter=0
 network=none
 ssh_tunnel_passphrase=
-username=denmark.angeles
+username=alvin.delossantos
 disablepasswordstoring=0
 quality=0
 span=0
@@ -91,5 +91,5 @@ disable-smooth-scrolling=0
 gateway_usage=0
 window_width=1920
 no-suppress=0
+websockets=0
 freerdp_log_level=INFO
-sound=off
