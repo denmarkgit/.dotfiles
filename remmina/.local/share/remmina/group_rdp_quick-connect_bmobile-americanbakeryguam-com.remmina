@@ -1,5 +1,5 @@
 [remmina]
-password=.
+password=w4OJrZ5S9ZSUuVa6M2U8Bg==
 gateway_username=
 notes_text=
 vc=
@@ -90,5 +90,5 @@ websockets=0
 freerdp_log_level=INFO
 window_height=1041
 viewmode=1
-window_maximize=0
+window_maximize=1
 window_width=948
