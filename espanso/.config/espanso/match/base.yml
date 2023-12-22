@@ -68,12 +68,18 @@ matches:
 
   - trigger: "@gbr"
     replace: "@guambeachfrontresidences.com"
+  
+  - trigger: ".gbr"
+    replace: ".guambeachfrontresidences.com"
 
   - trigger: "@gtt"
     replace: "@goodwindtraveltour.com"
 
   - trigger: "@mall"
     replace: "@micronesiamall.com"
+  
+  - trigger: ".mall"
+    replace: ".micronesiamall.com"
   
   - trigger: ".gdc"
     replace: ".goodwindcorp.com"
@@ -98,5 +104,23 @@ matches:
   
   - trigger: "@timez"
     replace: "Pacific/Guam"
-
+  
+  - trigger: ":update"
+    replace: "apt update && sudo apt upgrade -y"
+  
+  - trigger: ":static"
+    replace: |
+      network:
+      version: 2
+      renderer: networkd
+      ethernets:
+          eth0:
+              addresses:
+                  - 192.168.0.210/24
+              nameservers:
+                  addresses: [8.8.8.8, 8.8.4.4]
+              routes:
+                  - to: default
+                    via: 192.168.0.254
+  
   # And much more! For more information, visit the docs: https://espanso.org/docs/
